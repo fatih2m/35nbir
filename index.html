@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="35NBir media - Yaratıcı reklam ajansı çözümleri">
+    <meta name="keywords" content="reklam ajansı, medya, pazarlama, dijital, kreatif, tasarım">
+    <title>35NBir media | Yaratıcı Reklam Ajansı</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/jpeg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="logo-container">
+                <img src="img/logo.jpg" alt="35NBir media" class="preloader-logo">
+            </div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#hero" style="display: flex; align-items: center;">
+                    <img src="img/logo.jpg" alt="35NBir media" class="logo-img">
+                    <span style="color: #000000; font-weight: 700;">35nbir</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hero">Ana Sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Hizmetler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portföy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Referanslar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">İletişim</a>
+                        </li>
+                    </ul>
+                    <a href="tel:+905061441446" class="btn btn-animated ms-lg-3 mt-3 mt-lg-0">Teklif Al</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="video-container">
+            <video autoplay muted loop id="hero-video">
+                <source src="videos/hero-background.mp4" type="video/mp4">
+                <!-- Fallback for browsers that don't support video -->
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay"></div>
+        </div>
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1 class="display-4 fw-bold text-white mb-4">
+                            <span id="hero-text-slider">
+                                <span class="slide">Yaratıcı Fikirler</span>
+                                <span class="slide">Dijital Çözümler</span>
+                                <span class="slide">Etkileyici Tasarımlar</span>
+                                <span class="slide">Güçlü Stratejiler</span>
+                            </span>
+                        </h1>
+                        <p class="lead text-white mb-4">35NBir media ile markanızı bir adım öteye taşıyın. Yaratıcı çözümlerle hedeflerinize ulaşmanıza yardımcı oluyoruz.</p>
+                        <div class="hero-btns">
+                            <a href="#services" class="btn btn-light btn-lg me-3">Hizmetlerimiz</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">İletişime Geç</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 text-center">
+                    <h2 class="section-title" data-aos="fade-up">Hakkımızda</h2>
+                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Yaratıcı çözümler sunan ekibimizle tanışın</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-img" data-aos="fade-right">
+                        <img src="img/about-image.svg" alt="35NBir media ekibi" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content" data-aos="fade-left">
+                        <h3 class="mb-4">Biz Kimiz?</h3>
+                        <p>35NBir media, 2025 yılında kurulmuş yaratıcı bir reklam ajansıdır. Dijital dünyada markaların güçlü bir şekilde var olabilmesi için stratejik çözümler sunuyoruz.</p>
+                        <p>Ekibimiz, sektörde uzun yıllar deneyime sahip profesyonellerden oluşmaktadır. Her projede müşterilerimizin ihtiyaçlarını anlamak ve onlara özel çözümler üretmek için çalışıyoruz.</p>
+                        <div class="row mt-4 g-4">
+                            <div class="col-md-6">
+                                <div class="about-feature">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <h5>Yaratıcı Fikirler</h5>
+                                    <p>Sıra dışı ve etkileyici fikirlerle markanızı öne çıkarıyoruz.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-feature">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h5>Sonuç Odaklı</h5>
+                                    <p>Ölçülebilir sonuçlar için stratejik yaklaşımlar geliştiriyoruz.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-feature">
+                                    <i class="fas fa-users"></i>
+                                    <h5>Uzman Ekip</h5>
+                                    <p>Deneyimli ve yaratıcı ekibimizle projelerinizi hayata geçiriyoruz.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-feature">
+                                    <i class="fas fa-rocket"></i>
+                                    <h5>Hızlı Çözümler</h5>
+                                    <p>Zamanında ve etkili çözümlerle iş süreçlerinizi hızlandırıyoruz.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 text-center">
+                    <h2 class="section-title" data-aos="fade-up">Hizmetlerimiz</h2>
+                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Markanızı güçlendiren çözümler</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="icon-box">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h4>Marka Kimliği</h4>
+                        <p>Logo tasarımı, kurumsal kimlik, marka stratejisi ve konumlandırma hizmetleri ile markanızı güçlendiriyoruz.</p>
+                        <a href="#contact" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon-box">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>Web Tasarım & Geliştirme</h4>
+                        <p>Responsive web tasarımı, e-ticaret çözümleri ve özel web uygulamaları ile dijital varlığınızı güçlendiriyoruz.</p>
+                        <a href="#contact" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon-box">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h4>Dijital Pazarlama</h4>
+                        <p>Sosyal medya yönetimi ve içerik pazarlama stratejileri ile online görünürlüğünüzü artırıyoruz.</p>
+                        <a href="#contact" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon-box">
+                            <i class="fas fa-photo-video"></i>
+                        </div>
+                        <h4>Video Prodüksiyon</h4>
+                        <p>Reklam filmleri, tanıtım videoları, animasyonlar ve sosyal medya içerikleri ile markanızı hareketlendiriyoruz.</p>
+                        <a href="#contact" class="service-link">Detaylı Bilgi <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 text-center">
+                    <h2 class="section-title" data-aos="fade-up">Portföy</h2>
+                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Başarıyla tamamladığımız projeler</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Portfolio Filters -->
+                <div class="col-12 text-center mb-4">
+                    <div class="portfolio-filters" data-aos="fade-up">
+                        <button class="btn btn-outline-primary active" data-filter="*">Tümü</button>
+                        <button class="btn btn-outline-primary" data-filter=".web">Web Tasarım</button>
+                        <button class="btn btn-outline-primary" data-filter=".branding">Marka Kimliği</button>
+                        <button class="btn btn-outline-primary" data-filter=".digital">Dijital Pazarlama</button>
+                        <button class="btn btn-outline-primary" data-filter=".video">Video</button>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Items -->
+                <div class="col-md-6 col-lg-4 portfolio-item web">
+                    <div class="portfolio-card" data-aos="fade-up">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio/web-1.svg" alt="Web Tasarım Projesi" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <a href="img/portfolio/web-1.svg" data-lightbox="portfolio" data-title="E-Ticaret Web Sitesi">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h5>E-Ticaret Web Sitesi</h5>
+                            <p>Web Tasarım</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 portfolio-item branding">
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio/brand-1.svg" alt="Marka Kimliği Projesi" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <a href="img/portfolio/brand-1.svg" data-lightbox="portfolio" data-title="Kurumsal Kimlik Tasarımı">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h5>Kurumsal Kimlik Tasarımı</h5>
+                            <p>Marka Kimliği</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 portfolio-item digital">
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio/digital-1.svg" alt="Dijital Pazarlama Projesi" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <a href="img/portfolio/digital-1.svg" data-lightbox="portfolio" data-title="Sosyal Medya Kampanyası">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h5>Sosyal Medya Kampanyası</h5>
+                            <p>Dijital Pazarlama</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 portfolio-item video">
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio/video-1.svg" alt="Video Prodüksiyon Projesi" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <a href="img/portfolio/video-1.svg" data-lightbox="portfolio" data-title="Reklam Filmi Prodüksiyonu">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h5>Reklam Filmi Prodüksiyonu</h5>
+                            <p>Video</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 portfolio-item web">
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio/web-2.svg" alt="Web Tasarım Projesi" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <a href="img/portfolio/web-2.svg" data-lightbox="portfolio" data-title="Kurumsal Web Sitesi">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h5>Kurumsal Web Sitesi</h5>
+                            <p>Web Tasarım</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4 portfolio-item branding">
+                    <div class="portfolio-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="portfolio-img">
+                            <img src="img/portfolio/brand-2.svg" alt="Marka Kimliği Projesi" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <a href="img/portfolio/brand-2.svg" data-lightbox="portfolio" data-title="Logo Tasarımı">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h5>Logo Tasarımı</h5>
+                            <p>Marka Kimliği</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 text-center">
+                    <h2 class="section-title" data-aos="fade-up">Referanslar</h2>
+                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Referanslar</p>
+                </div>
+            </div>
+            <div class="row justify-content-center" data-aos="fade-up">
+                <!-- Canon -->
+                <div class="col-md-4 col-lg-4 text-center mb-4">
+                    <div class="reference-item">
+                        <div class="reference-logo mb-3">
+                            <img src="img/references/canon.png" alt="Canon" class="img-fluid" style="max-height: 80px;">
+                        </div>
+                        <h4 class="reference-name">Canon</h4>
+                    </div>
+                </div>
+                <!-- Monster -->
+                <div class="col-md-4 col-lg-4 text-center mb-4">
+                    <div class="reference-item">
+                        <div class="reference-logo mb-3">
+                            <img src="img/references/monster.png" alt="Monster" class="img-fluid" style="max-height: 80px;">
+                        </div>
+                        <h4 class="reference-name">Monster</h4>
+                    </div>
+                </div>
+                <!-- Microsoft -->
+                <div class="col-md-4 col-lg-4 text-center mb-4">
+                    <div class="reference-item">
+                        <div class="reference-logo mb-3">
+                            <img src="img/references/microsoft.png" alt="Microsoft" class="img-fluid" style="max-height: 80px;">
+                        </div>
+                        <h4 class="reference-name">Microsoft</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 text-center">
+                    <h2 class="section-title" data-aos="fade-up">İletişim</h2>
+                    <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Projeleriniz için bizimle iletişime geçin</p>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="contact-info" data-aos="fade-right">
+                        <h3 class="mb-4">İletişim Bilgileri</h3>
+                        <p>Projeleriniz veya sorularınız için bizimle iletişime geçebilirsiniz. Size en kısa sürede dönüş yapacağız.</p>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5>Adres</h5>
+                                <p>Atatürk Caddesi No:35, 35000 İzmir, Türkiye</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h5>Telefon</h5>
+                                <p>+90 506 144 14 46</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h5>E-posta</h5>
+                                <p>info@35nbiragency.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                        </div>
+                        <div class="contact-social mt-4">
+                            <a href="https://www.instagram.com/35nbir?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/905434275052" class="social-icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form" data-aos="fade-left">
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Adınız Soyadınız" required>
+                                        <label for="name">Adınız Soyadınız</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="E-posta Adresiniz" required>
+                                        <label for="email">E-posta Adresiniz</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Konu" required>
+                                        <label for="subject">Konu</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" id="message" placeholder="Mesajınız" style="height: 150px" required></textarea>
+                                        <label for="message">Mesajınız</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100" >Mesaj Gönder</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="footer-info">
+                            <h3 class="footer-logo">35NBir <span>media</span></h3>
+                            <p>Yaratıcı çözümlerle markanızı bir adım öteye taşıyoruz. Dijital dünyada güçlü bir şekilde var olmanız için yanınızdayız.</p>
+                            <div class="footer-social">
+                                <a href="https://www.instagram.com/35nbir?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://wa.me/905434275052" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-links">
+                            <h4>Hızlı Linkler</h4>
+                            <ul>
+                                <li><a href="#hero">Ana Sayfa</a></li>
+                                <li><a href="#about">Hakkımızda</a></li>
+                                <li><a href="#services">Hizmetler</a></li>
+                                <li><a href="#portfolio">Portföy</a></li>
+                                <li><a href="#testimonials">Referanslar</a></li>
+                                <li><a href="#contact">İletişim</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-links">
+                            <h4>Hizmetlerimiz</h4>
+                            <ul>
+                                <li><a href="#services">Marka Kimliği</a></li>
+                                <li><a href="#services">Web Tasarım</a></li>
+                                <li><a href="#services">Dijital Pazarlama</a></li>
+                                <li><a href="#services">Video Prodüksiyon</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="copyright">
+                            &copy; <span id="current-year"></span> <strong>35NBir media</strong>. Tüm Hakları Saklıdır.
+                        </div>
+                        <div class="mt-2">
+                            Verimood Yazılım
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

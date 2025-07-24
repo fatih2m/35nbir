@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e88e5" />
+      <stop offset="100%" stop-color="#0d47a1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg-gradient)" rx="10" ry="10" />
+  
+  <!-- Logo design elements -->
+  <g transform="translate(150, 100)">
+    <!-- Logo variations -->
+    <circle cx="150" cy="100" r="80" fill="#ffffff" />
+    
+    <!-- Abstract logo shape -->
+    <g transform="translate(150, 100)">
+      <path d="M-40,-20 L0,-40 L40,-20 L40,20 L0,40 L-40,20 Z" fill="#1e88e5" />
+      <circle cx="0" cy="0" r="15" fill="#ffffff" />
+    </g>
+    
+    <!-- Logo text -->
+    <rect x="100" y="200" width="100" height="15" fill="#ffffff" rx="2" ry="2" />
+  </g>
+  
+  <!-- Logo variations -->
+  <g transform="translate(50, 50)">
+    <circle cx="25" cy="25" r="20" fill="#ffffff" />
+    <path d="M15,15 L25,5 L35,15 L35,25 L25,35 L15,25 Z" fill="#1e88e5" transform="translate(25, 25) scale(0.5)" />
+    <circle cx="25" cy="25" r="7.5" fill="#ffffff" />
+  </g>
+  
+  <g transform="translate(50, 100)">
+    <circle cx="25" cy="25" r="20" fill="#1e88e5" />
+    <path d="M15,15 L25,5 L35,15 L35,25 L25,35 L15,25 Z" fill="#ffffff" transform="translate(25, 25) scale(0.5)" />
+    <circle cx="25" cy="25" r="7.5" fill="#1e88e5" />
+  </g>
+  
+  <g transform="translate(50, 150)">
+    <rect x="5" y="5" width="40" height="40" rx="5" ry="5" fill="#ffffff" />
+    <path d="M15,15 L25,5 L35,15 L35,25 L25,35 L15,25 Z" fill="#1e88e5" transform="translate(25, 25) scale(0.5)" />
+    <circle cx="25" cy="25" r="7.5" fill="#ffffff" />
+  </g>
+  
+  <g transform="translate(50, 200)">
+    <rect x="5" y="5" width="40" height="40" rx="5" ry="5" fill="#1e88e5" />
+    <path d="M15,15 L25,5 L35,15 L35,25 L25,35 L15,25 Z" fill="#ffffff" transform="translate(25, 25) scale(0.5)" />
+    <circle cx="25" cy="25" r="7.5" fill="#1e88e5" />
+  </g>
+  
+  <!-- Color variations -->
+  <g transform="translate(400, 50)">
+    <circle cx="25" cy="25" r="20" fill="#1e88e5" />
+    <path d="M15,15 L25,5 L35,15 L35,25 L25,35 L15,25 Z" fill="#ffffff" transform="translate(25, 25) scale(0.5)" />
+    <circle cx="25" cy="25" r="7.5" fill="#1e88e5" />
+  </g>
+  
+  <g transform="translate(450, 50)">
+    <circle cx="25" cy="25" r="20" fill="#0d47a1" />
+    <path d="M15,15 L25,5 L35,15 L35,25 L25,35 L15,25 Z" fill="#ffffff" transform="translate(25, 25) scale(0.5)" />
+    <circle cx="25" cy="25" r="7.5" fill="#0d47a1" />
+  </g>
+  
+  <g transform="translate(500, 50)">
+    <circle cx="25" cy="25" r="20" fill="#64b5f6" />
+    <path d="M15,15 L25,5 L35,15 L35,25 L25,35 L15,25 Z" fill="#ffffff" transform="translate(25, 25) scale(0.5)" />
+    <circle cx="25" cy="25" r="7.5" fill="#64b5f6" />
+  </g>
+  
+  <g transform="translate(400, 100)">
+    <circle cx="25" cy="25" r="20" fill="#546e7a" />
+    <path d="M15,15 L25,5 L35,15 L35,25 L25,35 L15,25 Z" fill="#ffffff" transform="translate(25, 25) scale(0.5)" />
+    <circle cx="25" cy="25" r="7.5" fill="#546e7a" />
+  </g>
+  
+  <g transform="translate(450, 100)">
+    <circle cx="25" cy="25" r="20" fill="#37474f" />
+    <path d="M15,15 L25,5 L35,15 L35,25 L25,35 L15,25 Z" fill="#ffffff" transform="translate(25, 25) scale(0.5)" />
+    <circle cx="25" cy="25" r="7.5" fill="#37474f" />
+  </g>
+  
+  <g transform="translate(500, 100)">
+    <circle cx="25" cy="25" r="20" fill="#ffffff" />
+    <path d="M15,15 L25,5 L35,15 L35,25 L25,35 L15,25 Z" fill="#1e88e5" transform="translate(25, 25) scale(0.5)" />
+    <circle cx="25" cy="25" r="7.5" fill="#ffffff" />
+  </g>
+  
+  <!-- Title overlay -->
+  <rect x="0" y="350" width="600" height="50" fill="rgba(0,0,0,0.5)" />
+  <text x="300" y="380" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">Logo Tasarımı</text>
+</svg>

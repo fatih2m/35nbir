@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f5f5" />
+      <stop offset="100%" stop-color="#e0e0e0" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-gradient)" rx="10" ry="10" />
+  
+  <!-- Office environment illustration -->
+  <rect x="100" y="150" width="600" height="300" fill="#ffffff" rx="5" ry="5" stroke="#dddddd" stroke-width="2" />
+  
+  <!-- People silhouettes -->
+  <g fill="#1e88e5">
+    <!-- Person 1 -->
+    <circle cx="200" cy="250" r="30" />
+    <rect x="185" y="280" width="30" height="80" rx="10" ry="10" />
+    
+    <!-- Person 2 -->
+    <circle cx="300" cy="250" r="30" />
+    <rect x="285" y="280" width="30" height="80" rx="10" ry="10" />
+    
+    <!-- Person 3 -->
+    <circle cx="400" cy="250" r="30" />
+    <rect x="385" y="280" width="30" height="80" rx="10" ry="10" />
+    
+    <!-- Person 4 -->
+    <circle cx="500" cy="250" r="30" />
+    <rect x="485" y="280" width="30" height="80" rx="10" ry="10" />
+    
+    <!-- Person 5 -->
+    <circle cx="600" cy="250" r="30" />
+    <rect x="585" y="280" width="30" height="80" rx="10" ry="10" />
+  </g>
+  
+  <!-- Desk -->
+  <rect x="150" y="380" width="500" height="20" fill="#78909c" rx="5" ry="5" />
+  
+  <!-- Computers -->
+  <g>
+    <rect x="180" y="330" width="40" height="30" fill="#546e7a" rx="2" ry="2" />
+    <rect x="280" y="330" width="40" height="30" fill="#546e7a" rx="2" ry="2" />
+    <rect x="380" y="330" width="40" height="30" fill="#546e7a" rx="2" ry="2" />
+    <rect x="480" y="330" width="40" height="30" fill="#546e7a" rx="2" ry="2" />
+    <rect x="580" y="330" width="40" height="30" fill="#546e7a" rx="2" ry="2" />
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#1e88e5">35NBir media Ekibi</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#546e7a">Yaratıcı ve Profesyonel</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="500" r="30" fill="rgba(30, 136, 229, 0.2)" />
+  <circle cx="700" cy="100" r="40" fill="rgba(30, 136, 229, 0.2)" />
+  <circle cx="750" cy="550" r="20" fill="rgba(30, 136, 229, 0.2)" />
+  <circle cx="50" cy="50" r="25" fill="rgba(30, 136, 229, 0.2)" />
+</svg>
